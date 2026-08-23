@@ -35,6 +35,6 @@
 | `awesome-fde` | 资源聚合 |
 | `goldentellus-reports` | 行业研究 |
 
-## 发布前说明
+## 当前状态
 
-本 staging 尚未选择正式许可证，也未配置赞助账号。发布到 GitHub 前请确认根目录 `LICENSE` 和 `.github/FUNDING.yml` 中的待定项。
+基础许可证、共享标签、MkDocs Pages 配置和基础 Actions 已纳入仓库。赞助配置仍保留为待确认占位，Secrets 将在出现真实 CI/CD 需求后按需添加。

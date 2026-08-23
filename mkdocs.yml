@@ -1,0 +1,42 @@
+site_name: GoldenTellus | FDE Pipeline Community
+site_url: https://goldentellus.github.io/goldentellus-home
+repo_url: https://github.com/GoldenTellus/goldentellus-home
+repo_name: GoldenTellus/goldentellus-home
+theme:
+  name: material
+  language: zh
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/weather-sunny
+        name: 切换到深色模式
+      primary: deep orange
+      accent: amber
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: 切换到浅色模式
+      primary: deep orange
+      accent: amber
+nav:
+  - 首页: index.md
+  - 我们的理念: manifest.md
+  - 新人入口: for-beginner.md
+  - 企业入口: for-enterprise.md
+  - FDE 入口: for-fde.md
+  - 仓库导航: navigation.md
+  - 贡献指南: CONTRIBUTING.md
+markdown_extensions:
+  - admonition
+  - attr_list
+  - tables
+  - toc:
+      permalink: true
