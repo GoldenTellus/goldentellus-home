@@ -1,0 +1,17 @@
+# Pending GitHub label manifest. Creating labels requires explicit external authorization.
+labels:
+  - name: "type: case"
+    color: "0E8A16"
+  - name: "type: demo"
+    color: "1D76DB"
+  - name: "type: knowledge"
+    color: "5319E7"
+  - name: "type: bug"
+    color: "D73A4A"
+  - name: "type: question"
+    color: "D876E3"
+  - name: "status: todo"
+    color: "FBCA04"
+  - name: "status: review"
+    color: "BFD4F2"
+# Apply these labels only after the repository owner approves the taxonomy.
