@@ -30,20 +30,39 @@ flowchart LR
   I -. 工具回流 .-> D
 ```
 
-## 🗂️ 仓库职责地图
+## 🏗️ 三层仓库架构
+
+### 📖 理论层
+
+建立对 FDE、AI 应用落地和行业环境的认知。这里主要回答“学什么、为什么、外部有哪些参考”。
 
 | 仓库 | 你会找到什么 | 典型入口 |
 |---|---|---|
-| 🏠 [goldentellus-home](https://github.com/GoldenTellus/goldentellus-home) | 总导航、受众入口、贡献入口 | 不知道去哪 |
 | 🧭 [goldentellus-roadmap](https://github.com/GoldenTellus/goldentellus-roadmap) | 学习路径、技能矩阵、成长地图 | 想学什么 |
 | 🧠 [goldentellus-knowledge](https://github.com/GoldenTellus/goldentellus-knowledge) | Pipeline 基础与角色知识 | 想掌握方法 |
+| ⭐ [awesome-fde](https://github.com/GoldenTellus/awesome-fde) | 外部工具、框架、文章、岗位和社群 | 想找资源 |
+| 📊 [goldentellus-reports](https://github.com/GoldenTellus/goldentellus-reports) | 行业简报、研究报告、季度回顾 | 想看趋势和证据 |
+
+### 🛠️ 实践层
+
+把理论转成可验证的交付物。这里主要回答“怎么做、怎么复用、怎么验证”。
+
+| 仓库 | 你会找到什么 | 典型入口 |
+|---|---|---|
 | 📚 [goldentellus-cases](https://github.com/GoldenTellus/goldentellus-cases) | 按行业、阶段、复杂度整理的案例 | 想看真实问题 |
 | 🛠️ [goldentellus-toolkit](https://github.com/GoldenTellus/goldentellus-toolkit) | 分析器、脚手架、计算器、Prompt 和报告工具 | 想提高效率 |
 | 📋 [goldentellus-playbooks](https://github.com/GoldenTellus/goldentellus-playbooks) | 角色 SOP、协作协议、模板和检查清单 | 想规范交付 |
 | 🧪 [goldentellus-demos](https://github.com/GoldenTellus/goldentellus-demos) | 可启动、可演示、可复现的 Demo | 想验证方案 |
-| 📊 [goldentellus-reports](https://github.com/GoldenTellus/goldentellus-reports) | 行业简报、研究报告、季度回顾 | 想看趋势和证据 |
-| ⭐ [awesome-fde](https://github.com/GoldenTellus/awesome-fde) | 外部工具、框架、文章、岗位和社群 | 想找资源 |
+
+### 🏛️ 治理层
+
+为其他两层提供总入口、组织公开资料和持续协作机制。这里主要回答“怎么进入、怎么参与、怎么共同维护”。
+
+| 仓库 | 你会找到什么 | 典型入口 |
+|---|---|---|
+| 🏠 [goldentellus-home](https://github.com/GoldenTellus/goldentellus-home) | 总导航、受众入口、贡献入口 | 不知道去哪 |
 | 🤝 [goldentellus-community](https://github.com/GoldenTellus/goldentellus-community) | 治理、讨论、活动、成员和合作记录 | 想参与协作 |
+| ⚙️ [`.github`](https://github.com/GoldenTellus/.github) | Organization Profile 与公共 GitHub 配置 | 想了解组织公开信息 |
 
 ## 🧩 按角色查找
 

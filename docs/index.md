@@ -47,19 +47,21 @@
 
 每个阶段都有对应知识、案例和交接模板。你可以从任意工位进入，再沿着上下游继续深入。
 
-## 🗂️ 仓库地图
+## 🏗️ 三层仓库地图
 
-| 入口 | 你会找到什么 |
-|---|---|
-| 🧠 [goldentellus-knowledge](https://github.com/GoldenTellus/goldentellus-knowledge) | 按角色组织的知识体系 |
-| 📚 [goldentellus-cases](https://github.com/GoldenTellus/goldentellus-cases) | 经过授权与脱敏的案例拆解 |
-| 🧪 [goldentellus-demos](https://github.com/GoldenTellus/goldentellus-demos) | 与案例对应的最小可运行 Demo |
-| 📋 [goldentellus-playbooks](https://github.com/GoldenTellus/goldentellus-playbooks) | SOP、交接协议和项目模板 |
-| 🧭 [goldentellus-roadmap](https://github.com/GoldenTellus/goldentellus-roadmap) | 学习路径与技能成长地图 |
-| 🤝 [goldentellus-community](https://github.com/GoldenTellus/goldentellus-community) | 社群治理、活动与协作记录 |
-| 🛠️ [goldentellus-toolkit](https://github.com/GoldenTellus/goldentellus-toolkit) | 降低重复劳动的共用工具 |
-| ⭐ [awesome-fde](https://github.com/GoldenTellus/awesome-fde) | FDE 与企业 AI 资源索引 |
-| 📊 [goldentellus-reports](https://github.com/GoldenTellus/goldentellus-reports) | 可验证的行业研究与回顾 |
+| 层级 | 入口 | 你会找到什么 |
+|---|---|---|
+| 📖 理论层 | 🧭 [goldentellus-roadmap](https://github.com/GoldenTellus/goldentellus-roadmap) | 学习路径与技能成长地图 |
+| 📖 理论层 | 🧠 [goldentellus-knowledge](https://github.com/GoldenTellus/goldentellus-knowledge) | 按角色组织的知识体系 |
+| 📖 理论层 | ⭐ [awesome-fde](https://github.com/GoldenTellus/awesome-fde) | FDE 与企业 AI 资源索引 |
+| 📖 理论层 | 📊 [goldentellus-reports](https://github.com/GoldenTellus/goldentellus-reports) | 可验证的行业研究与回顾 |
+| 🛠️ 实践层 | 📚 [goldentellus-cases](https://github.com/GoldenTellus/goldentellus-cases) | 经过授权与脱敏的案例拆解 |
+| 🛠️ 实践层 | 🧪 [goldentellus-demos](https://github.com/GoldenTellus/goldentellus-demos) | 与案例对应的最小可运行 Demo |
+| 🛠️ 实践层 | 📋 [goldentellus-playbooks](https://github.com/GoldenTellus/goldentellus-playbooks) | SOP、交接协议和项目模板 |
+| 🛠️ 实践层 | 🛠️ [goldentellus-toolkit](https://github.com/GoldenTellus/goldentellus-toolkit) | 降低重复劳动的共用工具 |
+| 🏛️ 治理层 | 🤝 [goldentellus-community](https://github.com/GoldenTellus/goldentellus-community) | 社群治理、活动与协作记录 |
+| 🏛️ 治理层 | 🏠 [goldentellus-home](https://github.com/GoldenTellus/goldentellus-home) | 总导航与受众入口 |
+| 🏛️ 治理层 | ⚙️ [`.github`](https://github.com/GoldenTellus/.github) | Organization Profile 与公共配置 |
 
 ## 🛡️ 社区原则
 

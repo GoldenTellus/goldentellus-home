@@ -40,20 +40,39 @@
 
 这不是必须从头走到尾的课程顺序。你可以从任何一站开始，再沿着上游补知识、沿着下游做验证。
 
-## 🗂️ 全部仓库地图
+## 🏗️ GoldenTellus 三层架构
+
+```text
+理论层：建立认知、方法、外部参照与行业判断
+实践层：把方法变成案例、工具、流程和可运行验证
+治理层：提供总入口、协作规则和组织公共资料
+```
+
+## 📖 理论层
 
 | 仓库 | 负责什么 | 适合什么时候看 |
 |---|---|---|
-| 🏠 [goldentellus-home](https://github.com/GoldenTellus/goldentellus-home) | Organization 门面、总导航和入口分流 | 不知道去哪时先看这里 |
 | 🧭 [goldentellus-roadmap](https://github.com/GoldenTellus/goldentellus-roadmap) | 学习路径、技能矩阵和成长地图 | 规划学习路线 |
 | 🧠 [goldentellus-knowledge](https://github.com/GoldenTellus/goldentellus-knowledge) | 按 FDE 角色组织的知识体系 | 学习某个工位的方法 |
+| ⭐ [awesome-fde](https://github.com/GoldenTellus/awesome-fde) | FDE、企业 AI 和 Agent 资源索引 | 查外部工具、文章和社区 |
+| 📊 [goldentellus-reports](https://github.com/GoldenTellus/goldentellus-reports) | 行业研究、白皮书和季度回顾 | 查趋势、来源和复盘材料 |
+
+## 🛠️ 实践层
+
+| 仓库 | 负责什么 | 适合什么时候看 |
+|---|---|---|
 | 📚 [goldentellus-cases](https://github.com/GoldenTellus/goldentellus-cases) | 授权、脱敏、可复盘的案例 | 理解真实问题和约束 |
 | 🛠️ [goldentellus-toolkit](https://github.com/GoldenTellus/goldentellus-toolkit) | 需求、架构、数据、Prompt 和报告工具 | 减少重复劳动 |
 | 📋 [goldentellus-playbooks](https://github.com/GoldenTellus/goldentellus-playbooks) | SOP、交接协议、项目模板和清单 | 把工作变成可重复流程 |
 | 🧪 [goldentellus-demos](https://github.com/GoldenTellus/goldentellus-demos) | 与案例对应的最小可运行代码 | 动手验证方案 |
-| 📊 [goldentellus-reports](https://github.com/GoldenTellus/goldentellus-reports) | 行业研究、白皮书和季度回顾 | 查趋势、来源和复盘材料 |
-| ⭐ [awesome-fde](https://github.com/GoldenTellus/awesome-fde) | FDE、企业 AI 和 Agent 资源索引 | 查外部工具、文章和社区 |
+
+## 🏛️ 治理层
+
+| 仓库 | 负责什么 | 适合什么时候看 |
+|---|---|---|
+| 🏠 [goldentellus-home](https://github.com/GoldenTellus/goldentellus-home) | Organization 门面、总导航和入口分流 | 不知道去哪时先看这里 |
 | 🤝 [goldentellus-community](https://github.com/GoldenTellus/goldentellus-community) | 治理、讨论、活动、组队和合作记录 | 参与共创和社群协作 |
+| ⚙️ [`.github`](https://github.com/GoldenTellus/.github) | Organization Profile 与公共 GitHub 配置 | 查看组织公开信息 |
 
 ## 🧩 按 FDE 工位查找
 
