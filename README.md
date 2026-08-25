@@ -9,7 +9,7 @@
 | 你现在要做什么 | 推荐路径 |
 |---|---|
 | 我是新人，想知道从哪里学起 | 🧭 [goldentellus-roadmap](https://github.com/GoldenTellus/goldentellus-roadmap) → 🧠 [goldentellus-knowledge](https://github.com/GoldenTellus/goldentellus-knowledge) |
-| 我想理解一个 AI 落地问题 | 📚 [goldentellus-cases](https://github.com/GoldenTellus/goldentellus-cases) → 🧠 [goldentellus-knowledge](https://github.com/GoldenTellus/goldentellus-knowledge) |
+| 我想理解一个 AI 落地问题 | 📚 [goldentellus-cases](https://github.com/GoldenTellus/goldentellus-cases) → 🧠 [goldentellus-knowledge](https://github.com/GoldenTellus/goldentellus-knowledge) → 🧪 [goldentellus-demos](https://github.com/GoldenTellus/goldentellus-demos) |
 | 我想做一个可运行的 Demo | 🧪 [goldentellus-demos](https://github.com/GoldenTellus/goldentellus-demos) → 🛠️ [goldentellus-toolkit](https://github.com/GoldenTellus/goldentellus-toolkit) |
 | 我需要需求、架构、数据或报告工具 | 🛠️ [goldentellus-toolkit](https://github.com/GoldenTellus/goldentellus-toolkit) |
 | 我需要一套可复用的交付流程 | 📋 [goldentellus-playbooks](https://github.com/GoldenTellus/goldentellus-playbooks) |
@@ -23,7 +23,7 @@
 ```text
 🧭 找到工位
    ↓
-🧠 学习方法与角色知识
+🧠 学习岗位方法与案例学习
    ↓
 📚 阅读脱敏案例，理解约束
    ↓
@@ -53,7 +53,7 @@
 | 仓库 | 负责什么 | 适合什么时候看 |
 |---|---|---|
 | 🧭 [goldentellus-roadmap](https://github.com/GoldenTellus/goldentellus-roadmap) | 学习路径、技能矩阵和成长地图 | 规划学习路线 |
-| 🧠 [goldentellus-knowledge](https://github.com/GoldenTellus/goldentellus-knowledge) | 按 FDE 角色组织的知识体系 | 学习某个工位的方法 |
+| 🧠 [goldentellus-knowledge](https://github.com/GoldenTellus/goldentellus-knowledge) | 按 FDE 角色组织的方法论与案例学习 | 学习某个工位的方法与真实决策 |
 | ⭐ [awesome-fde](https://github.com/GoldenTellus/awesome-fde) | FDE、企业 AI 和 Agent 资源索引 | 查外部工具、文章和社区 |
 | 📊 [goldentellus-reports](https://github.com/GoldenTellus/goldentellus-reports) | 行业研究、白皮书和季度回顾 | 查趋势、来源和复盘材料 |
 
@@ -61,7 +61,7 @@
 
 | 仓库 | 负责什么 | 适合什么时候看 |
 |---|---|---|
-| 📚 [goldentellus-cases](https://github.com/GoldenTellus/goldentellus-cases) | 授权、脱敏、可复盘的案例 | 理解真实问题和约束 |
+| 📚 [goldentellus-cases](https://github.com/GoldenTellus/goldentellus-cases) | 授权、脱敏、可复盘的完整案例 | 理解真实问题和约束，再进入知识库学习岗位决策 |
 | 🛠️ [goldentellus-toolkit](https://github.com/GoldenTellus/goldentellus-toolkit) | 需求、架构、数据、Prompt 和报告工具 | 减少重复劳动 |
 | 📋 [goldentellus-playbooks](https://github.com/GoldenTellus/goldentellus-playbooks) | SOP、交接协议、项目模板和清单 | 把工作变成可重复流程 |
 | 🧪 [goldentellus-demos](https://github.com/GoldenTellus/goldentellus-demos) | 与案例对应的最小可运行代码 | 动手验证方案 |

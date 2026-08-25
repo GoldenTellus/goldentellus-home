@@ -52,7 +52,7 @@
 | 层级 | 入口 | 你会找到什么 |
 |---|---|---|
 | 📖 理论层 | 🧭 [goldentellus-roadmap](https://github.com/GoldenTellus/goldentellus-roadmap) | 学习路径与技能成长地图 |
-| 📖 理论层 | 🧠 [goldentellus-knowledge](https://github.com/GoldenTellus/goldentellus-knowledge) | 按角色组织的知识体系 |
+| 📖 理论层 | 🧠 [goldentellus-knowledge](https://github.com/GoldenTellus/goldentellus-knowledge) | 按角色组织的方法论与案例学习 |
 | 📖 理论层 | ⭐ [awesome-fde](https://github.com/GoldenTellus/awesome-fde) | FDE 与企业 AI 资源索引 |
 | 📖 理论层 | 📊 [goldentellus-reports](https://github.com/GoldenTellus/goldentellus-reports) | 可验证的行业研究与回顾 |
 | 🛠️ 实践层 | 📚 [goldentellus-cases](https://github.com/GoldenTellus/goldentellus-cases) | 经过授权与脱敏的案例拆解 |

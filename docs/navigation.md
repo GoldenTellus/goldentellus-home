@@ -7,7 +7,7 @@
 | 你的需求 | 第一站 | 推荐下一站 |
 |---|---|---|
 | 学习 FDE、规划成长 | 🧭 [goldentellus-roadmap](https://github.com/GoldenTellus/goldentellus-roadmap) | 🧠 [goldentellus-knowledge](https://github.com/GoldenTellus/goldentellus-knowledge) |
-| 了解 AI 落地案例 | 📚 [goldentellus-cases](https://github.com/GoldenTellus/goldentellus-cases) | 🧪 [goldentellus-demos](https://github.com/GoldenTellus/goldentellus-demos) |
+| 了解 AI 落地案例 | 📚 [goldentellus-cases](https://github.com/GoldenTellus/goldentellus-cases) | 🧠 [goldentellus-knowledge](https://github.com/GoldenTellus/goldentellus-knowledge) → 🧪 [goldentellus-demos](https://github.com/GoldenTellus/goldentellus-demos) |
 | 拆解需求或设计架构 | 🛠️ [goldentellus-toolkit](https://github.com/GoldenTellus/goldentellus-toolkit) | 📋 [goldentellus-playbooks](https://github.com/GoldenTellus/goldentellus-playbooks) |
 | 编写并运行 Demo | 🧪 [goldentellus-demos](https://github.com/GoldenTellus/goldentellus-demos) | 📚 [goldentellus-cases](https://github.com/GoldenTellus/goldentellus-cases) |
 | 查 SOP、模板和交接协议 | 📋 [goldentellus-playbooks](https://github.com/GoldenTellus/goldentellus-playbooks) | 🤝 [goldentellus-community](https://github.com/GoldenTellus/goldentellus-community) |
@@ -39,7 +39,7 @@ flowchart LR
 | 仓库 | 你会找到什么 | 典型入口 |
 |---|---|---|
 | 🧭 [goldentellus-roadmap](https://github.com/GoldenTellus/goldentellus-roadmap) | 学习路径、技能矩阵、成长地图 | 想学什么 |
-| 🧠 [goldentellus-knowledge](https://github.com/GoldenTellus/goldentellus-knowledge) | Pipeline 基础与角色知识 | 想掌握方法 |
+| 🧠 [goldentellus-knowledge](https://github.com/GoldenTellus/goldentellus-knowledge) | Pipeline 基础、岗位方法论与案例学习 | 想掌握方法和真实决策 |
 | ⭐ [awesome-fde](https://github.com/GoldenTellus/awesome-fde) | 外部工具、框架、文章、岗位和社群 | 想找资源 |
 | 📊 [goldentellus-reports](https://github.com/GoldenTellus/goldentellus-reports) | 行业简报、研究报告、季度回顾 | 想看趋势和证据 |
 
@@ -78,7 +78,7 @@ flowchart LR
 
 ## 🤝 想贡献什么？
 
-- 文章或方法：提交到 `goldentellus-knowledge`。
+- 文章、方法或岗位案例学习：提交到 `goldentellus-knowledge`；案例学习必须关联已授权案例，不能复制完整案例正文。
 - 脱敏案例：提交到 `goldentellus-cases`，并关联 Demo（如有）。
 - 可运行代码：提交到 `goldentellus-demos` 或 `goldentellus-toolkit`。
 - SOP、模板或检查清单：提交到 `goldentellus-playbooks`。
