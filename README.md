@@ -8,6 +8,7 @@
 
 | 你现在要做什么 | 推荐路径 |
 |---|---|
+| 我是企业，想判断 AI 项目是否值得做 | 🏢 [goldentellus-enterprise](https://github.com/GoldenTellus/goldentellus-enterprise) → 📚 [goldentellus-cases](https://github.com/GoldenTellus/goldentellus-cases) → 📋 [goldentellus-playbooks](https://github.com/GoldenTellus/goldentellus-playbooks) |
 | 我是新人，想知道从哪里学起 | 🧭 [goldentellus-roadmap](https://github.com/GoldenTellus/goldentellus-roadmap) → 🧠 [goldentellus-knowledge](https://github.com/GoldenTellus/goldentellus-knowledge) |
 | 我想理解一个 AI 落地问题 | 📚 [goldentellus-cases](https://github.com/GoldenTellus/goldentellus-cases) → 🧠 [goldentellus-knowledge](https://github.com/GoldenTellus/goldentellus-knowledge) → 🧪 [goldentellus-demos](https://github.com/GoldenTellus/goldentellus-demos) |
 | 我想做一个可运行的 Demo | 🧪 [goldentellus-demos](https://github.com/GoldenTellus/goldentellus-demos) → 🛠️ [goldentellus-toolkit](https://github.com/GoldenTellus/goldentellus-toolkit) |
@@ -71,6 +72,7 @@
 | 仓库 | 负责什么 | 适合什么时候看 |
 |---|---|---|
 | 🏠 [goldentellus-home](https://github.com/GoldenTellus/goldentellus-home) | Organization 门面、总导航和入口分流 | 不知道去哪时先看这里 |
+| 🏢 [goldentellus-enterprise](https://github.com/GoldenTellus/goldentellus-enterprise) | 企业 AI 应用的决策指南与跨仓库导航 | 判断场景、试点、验收和扩大时先看这里 |
 | 🤝 [goldentellus-community](https://github.com/GoldenTellus/goldentellus-community) | 治理、讨论、活动、组队和合作记录 | 参与共创和社群协作 |
 | ⚙️ [`.github`](https://github.com/GoldenTellus/.github) | Organization Profile 与公共 GitHub 配置 | 查看组织公开信息 |
 
