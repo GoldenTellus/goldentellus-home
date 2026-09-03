@@ -51,14 +51,12 @@
 
 | 层级 | 入口 | 你会找到什么 |
 |---|---|---|
-| 📖 理论层 | 🧭 [goldentellus-roadmap](https://github.com/GoldenTellus/goldentellus-roadmap) | 学习路径与技能成长地图 |
-| 📖 理论层 | 🧠 [goldentellus-knowledge](https://github.com/GoldenTellus/goldentellus-knowledge) | 按角色组织的方法论与案例学习 |
+| 📖 理论层 | 🧠 [goldentellus-knowledge](https://github.com/GoldenTellus/goldentellus-knowledge) | 工位定位、学习路径、技能矩阵、按角色组织的方法论与案例学习 |
 | 📖 理论层 | ⭐ [awesome-fde](https://github.com/GoldenTellus/awesome-fde) | FDE 与企业 AI 资源索引 |
 | 📖 理论层 | 📊 [goldentellus-reports](https://github.com/GoldenTellus/goldentellus-reports) | 可验证的行业研究与回顾 |
 | 🛠️ 实践层 | 📚 [goldentellus-cases](https://github.com/GoldenTellus/goldentellus-cases) | 经过授权与脱敏的案例拆解 |
-| 🛠️ 实践层 | 🧪 [goldentellus-demos](https://github.com/GoldenTellus/goldentellus-demos) | 与案例对应的最小可运行 Demo |
+| 🛠️ 实践层 | 🧪 [goldentellus-labs](https://github.com/GoldenTellus/goldentellus-labs) | 从 Skill、工具、连接器到与案例对应的可运行 Demo |
 | 🛠️ 实践层 | 📋 [goldentellus-playbooks](https://github.com/GoldenTellus/goldentellus-playbooks) | SOP、交接协议和项目模板 |
-| 🛠️ 实践层 | 🛠️ [goldentellus-toolkit](https://github.com/GoldenTellus/goldentellus-toolkit) | 降低重复劳动的共用工具 |
 | 🏛️ 治理层 | 🤝 [goldentellus-community](https://github.com/GoldenTellus/goldentellus-community) | 社群治理、活动与协作记录 |
 | 🏛️ 治理层 | 🏠 [goldentellus-home](https://github.com/GoldenTellus/goldentellus-home) | 总导航与受众入口 |
 | 🏛️ 治理层 | ⚙️ [`.github`](https://github.com/GoldenTellus/.github) | Organization Profile 与公共配置 |
