@@ -32,6 +32,18 @@ nav:
   - 新人入口: for-beginner.md
   - 企业入口: for-enterprise.md
   - FDE 入口: for-fde.md
+  - 知识库:
+      - knowledge/index.md
+      - 00 流水线基础: knowledge/00-pipeline-fundamentals/index.md
+      - 01 Lead FDE: knowledge/01-lead-fde/index.md
+      - 02 Analyst: knowledge/02-analyst/index.md
+      - 03 Architect: knowledge/03-architect/index.md
+      - 04 Builder: knowledge/04-builder/index.md
+      - 05 Data Engineer: knowledge/05-data-engineer/index.md
+      - 06 Integrator: knowledge/06-integrator/index.md
+      - 07 Ops: knowledge/07-ops/index.md
+      - 99 跨工位: knowledge/99-general/index.md
+  - 案例库: cases/index.md
   - 仓库导航: navigation.md
   - 贡献指南: CONTRIBUTING.md
 markdown_extensions:

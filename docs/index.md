@@ -47,19 +47,15 @@
 
 每个阶段都有对应知识、案例和交接模板。你可以从任意工位进入，再沿着上下游继续深入。
 
-## 🏗️ 三层仓库地图
+## 🗂️ 内容地图
 
-| 层级 | 入口 | 你会找到什么 |
-|---|---|---|
-| 📖 理论层 | 🧠 [goldentellus-knowledge](https://github.com/GoldenTellus/goldentellus-knowledge) | 工位定位、学习路径、技能矩阵、按角色组织的方法论与案例学习 |
-| 📖 理论层 | ⭐ [awesome-fde](https://github.com/GoldenTellus/awesome-fde) | FDE 与企业 AI 资源索引 |
-| 📖 理论层 | 📊 [goldentellus-reports](https://github.com/GoldenTellus/goldentellus-reports) | 可验证的行业研究与回顾 |
-| 🛠️ 实践层 | 📚 [goldentellus-cases](https://github.com/GoldenTellus/goldentellus-cases) | 经过授权与脱敏的案例拆解 |
-| 🛠️ 实践层 | 🧪 [goldentellus-labs](https://github.com/GoldenTellus/goldentellus-labs) | 从 Skill、工具、连接器到与案例对应的可运行 Demo |
-| 🛠️ 实践层 | 📋 [goldentellus-playbooks](https://github.com/GoldenTellus/goldentellus-playbooks) | SOP、交接协议和项目模板 |
-| 🏛️ 治理层 | 🤝 [goldentellus-community](https://github.com/GoldenTellus/goldentellus-community) | 社群治理、活动与协作记录 |
-| 🏛️ 治理层 | 🏠 [goldentellus-home](https://github.com/GoldenTellus/goldentellus-home) | 总导航与受众入口 |
-| 🏛️ 治理层 | ⚙️ [`.github`](https://github.com/GoldenTellus/.github) | Organization Profile 与公共配置 |
+| 板块 | 你会找到什么 |
+|---|---|
+| 🧠 [知识库](knowledge/index.md) | 流水线基础、按工位组织的方法论与案例学习 |
+| 📚 [案例库](cases/index.md) | 经过授权与脱敏的 AI 落地案例拆解 |
+| 🤝 [goldentellus-community](https://github.com/GoldenTellus/goldentellus-community) | 社群治理、活动、组队与协作记录 |
+
+完整说明见 [仓库与内容导航](navigation.md)。
 
 ## 🛡️ 社区原则
 
@@ -71,4 +67,4 @@
 
 ## 📌 当前状态
 
-基础许可证、共享标签、MkDocs Pages 配置和基础 Actions 已纳入仓库。赞助配置仍保留为待确认占位，Secrets 将在出现真实 CI/CD 需求后按需添加。
+知识库和案例库已建好目录结构，第一批内容正在整理中。案例与知识暂时都放在本站，内容积累到一定规模后再拆分为独立仓库。

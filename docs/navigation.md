@@ -1,19 +1,15 @@
-# 🗺️ GoldenTellus 仓库总导航
+# 🗺️ 仓库与内容导航
 
-不知道去哪时，从你的目标开始选。每条路径都可以继续向上游补知识、向下游做验证。
+GoldenTellus 目前保持精简：知识和案例都集中在本站，社群协作在 `goldentellus-community`。不知道去哪时，从你的目标开始选。
 
 ## 🚦 按需求直达
 
 | 你的需求 | 第一站 | 推荐下一站 |
 |---|---|---|
-| 我是企业，想判断 AI 项目该不该做、先做什么 | 🏢 [goldentellus-enterprise](https://github.com/GoldenTellus/goldentellus-enterprise) | 📚 cases → 📋 playbooks → 🧪 labs |
-| 学习 FDE、规划成长 | 🧠 [goldentellus-knowledge](https://github.com/GoldenTellus/goldentellus-knowledge) | 工位定位 → 学习路径 → 岗位方法 |
-| 了解 AI 落地案例 | 📚 [goldentellus-cases](https://github.com/GoldenTellus/goldentellus-cases) | 🧠 [goldentellus-knowledge](https://github.com/GoldenTellus/goldentellus-knowledge) → 🧪 [goldentellus-labs](https://github.com/GoldenTellus/goldentellus-labs) |
-| 拆解需求、设计架构或使用共用工具 | 🧪 [goldentellus-labs](https://github.com/GoldenTellus/goldentellus-labs) | 📋 [goldentellus-playbooks](https://github.com/GoldenTellus/goldentellus-playbooks) |
-| 编写并运行 Demo | 🧪 [goldentellus-labs](https://github.com/GoldenTellus/goldentellus-labs) | 📚 [goldentellus-cases](https://github.com/GoldenTellus/goldentellus-cases) |
-| 查 SOP、模板和交接协议 | 📋 [goldentellus-playbooks](https://github.com/GoldenTellus/goldentellus-playbooks) | 🤝 [goldentellus-community](https://github.com/GoldenTellus/goldentellus-community) |
-| 查工具、文章、框架和资源 | ⭐ [awesome-fde](https://github.com/GoldenTellus/awesome-fde) | 🧪 [goldentellus-labs](https://github.com/GoldenTellus/goldentellus-labs) |
-| 做行业研究或复盘 | 📊 [goldentellus-reports](https://github.com/GoldenTellus/goldentellus-reports) | 📚 [goldentellus-cases](https://github.com/GoldenTellus/goldentellus-cases) |
+| 我是企业，想判断 AI 项目该不该做、先做什么 | 🏢 [企业入口](for-enterprise.md) | 📚 [案例库](cases/index.md) |
+| 学习 FDE、规划成长 | 🌱 [新人入口](for-beginner.md) | 🧠 [流水线基础](knowledge/00-pipeline-fundamentals/index.md) |
+| 了解 AI 落地案例 | 📚 [案例库](cases/index.md) | 🧠 [知识库](knowledge/index.md) |
+| 深入某个工位的方法 | 🔧 [FDE 入口](for-fde.md) | 🧠 [知识库](knowledge/index.md) |
 | 参与讨论、活动或组队 | 🤝 [goldentellus-community](https://github.com/GoldenTellus/goldentellus-community) | [贡献指南](CONTRIBUTING.md) |
 
 ## 🔁 按流水线串联
@@ -22,68 +18,37 @@
 flowchart LR
   A[🧭 找到工位] --> B[🧠 学知识]
   B --> C[📚 看案例]
-  C --> D[🛠️ 用工具]
-  D --> E[📋 按 SOP 交付]
-  E --> F[🧪 跑 Demo]
-  F --> G[📊 做复盘]
-  G --> H[🤝 社区协作]
-  H -. 资源补充 .-> I[⭐ awesome-fde]
-  I -. 工具回流 .-> D
+  C --> D[🛠️ 动手验证]
+  D --> E[🤝 社区协作]
+  E -. 新案例与经验 .-> C
 ```
 
-## 🏗️ 三层仓库架构
+## 🏗️ 仓库
 
-### 📖 理论层
+| 仓库 | 你会找到什么 |
+|---|---|
+| 🏠 [goldentellus-home](https://github.com/GoldenTellus/goldentellus-home) | 本站源码：总导航、受众入口、知识库、案例库 |
+| 🤝 [goldentellus-community](https://github.com/GoldenTellus/goldentellus-community) | 治理、讨论、活动、成员和合作记录 |
+| ⚙️ [`.github`](https://github.com/GoldenTellus/.github) | Organization Profile 与公共贡献约定 |
 
-建立对 FDE、AI 应用落地和行业环境的认知。这里主要回答“学什么、为什么、外部有哪些参考”。
+## 🧩 按工位查找
 
-| 仓库 | 你会找到什么 | 典型入口 |
-|---|---|---|
-| 🧠 [goldentellus-knowledge](https://github.com/GoldenTellus/goldentellus-knowledge) | 工位定位、学习路径、技能矩阵、Pipeline 基础、岗位方法论与案例学习 | 想规划成长并掌握方法 |
-| ⭐ [awesome-fde](https://github.com/GoldenTellus/awesome-fde) | 外部工具、框架、文章、岗位和社群 | 想找资源 |
-| 📊 [goldentellus-reports](https://github.com/GoldenTellus/goldentellus-reports) | 行业简报、研究报告、季度回顾 | 想看趋势和证据 |
-
-### 🛠️ 实践层
-
-把理论转成可验证的交付物。这里主要回答“怎么做、怎么复用、怎么验证”。
-
-| 仓库 | 你会找到什么 | 典型入口 |
-|---|---|---|
-| 📚 [goldentellus-cases](https://github.com/GoldenTellus/goldentellus-cases) | 按行业、阶段、复杂度整理的案例 | 想看真实问题 |
-| 🧪 [goldentellus-labs](https://github.com/GoldenTellus/goldentellus-labs) | Skills、分析器、脚手架、计算器、连接器、组件和 Demo | 想从小能力验证到完整方案 |
-| 📋 [goldentellus-playbooks](https://github.com/GoldenTellus/goldentellus-playbooks) | 角色 SOP、协作协议、模板和检查清单 | 想规范交付 |
-
-### 🏛️ 治理层
-
-为其他两层提供总入口、组织公开资料和持续协作机制。这里主要回答“怎么进入、怎么参与、怎么共同维护”。
-
-| 仓库 | 你会找到什么 | 典型入口 |
-|---|---|---|
-| 🏠 [goldentellus-home](https://github.com/GoldenTellus/goldentellus-home) | 总导航、受众入口、贡献入口 | 不知道去哪 |
-| 🏢 [goldentellus-enterprise](https://github.com/GoldenTellus/goldentellus-enterprise) | 企业决策指南与跨仓库导航 | 想判断怎么开始、试点、验收与扩大 |
-| 🤝 [goldentellus-community](https://github.com/GoldenTellus/goldentellus-community) | 治理、讨论、活动、成员和合作记录 | 想参与协作 |
-| ⚙️ [`.github`](https://github.com/GoldenTellus/.github) | Organization Profile 与公共 GitHub 配置 | 想了解组织公开信息 |
-
-## 🧩 按角色查找
-
-| 角色 | 先看 | 配套仓库 |
-|---|---|---|
-| Lead FDE | [01-lead-fde](https://github.com/GoldenTellus/goldentellus-knowledge/tree/main/01-lead-fde) | [playbooks](https://github.com/GoldenTellus/goldentellus-playbooks/tree/main/role-playbooks)、community |
-| Analyst | [02-analyst](https://github.com/GoldenTellus/goldentellus-knowledge/tree/main/02-analyst) | labs、cases |
-| Architect | [03-architect](https://github.com/GoldenTellus/goldentellus-knowledge/tree/main/03-architect) | labs、playbooks |
-| Builder | [04-builder](https://github.com/GoldenTellus/goldentellus-knowledge/tree/main/04-builder) | labs、playbooks |
-| Data Engineer | [05-data-engineer](https://github.com/GoldenTellus/goldentellus-knowledge/tree/main/05-data-engineer) | labs、reports |
-| Integrator | [06-integrator](https://github.com/GoldenTellus/goldentellus-knowledge/tree/main/06-integrator) | labs、playbooks |
-| Ops | [07-ops](https://github.com/GoldenTellus/goldentellus-knowledge/tree/main/07-ops) | reports、community |
+| 工位 | 知识库目录 |
+|---|---|
+| 流水线通识 | [00-pipeline-fundamentals](knowledge/00-pipeline-fundamentals/index.md) |
+| Lead FDE / 协调 | [01-lead-fde](knowledge/01-lead-fde/index.md) |
+| Analyst / 诊断 | [02-analyst](knowledge/02-analyst/index.md) |
+| Architect / 架构 | [03-architect](knowledge/03-architect/index.md) |
+| Builder / 开发 | [04-builder](knowledge/04-builder/index.md) |
+| Data Engineer / 数据 | [05-data-engineer](knowledge/05-data-engineer/index.md) |
+| Integrator / 集成 | [06-integrator](knowledge/06-integrator/index.md) |
+| Ops / 运营 | [07-ops](knowledge/07-ops/index.md) |
+| 跨工位 | [99-general](knowledge/99-general/index.md) |
 
 ## 🤝 想贡献什么？
 
-- 文章、方法或岗位案例学习：提交到 `goldentellus-knowledge`；案例学习必须关联已授权案例，不能复制完整案例正文。
-- 脱敏案例：提交到 `goldentellus-cases`，并关联 Demo（如有）。
-- 可运行代码、Skill、工具、连接器或 Demo：提交到 `goldentellus-labs`。
-- SOP、模板或检查清单：提交到 `goldentellus-playbooks`。
-- 外部资源：提交到 `awesome-fde`，注明来源和维护状态。
-- 讨论、活动或组队：提交到 `goldentellus-community`。
-- 研究、简报或复盘：提交到 `goldentellus-reports`。
+- 文章、方法或岗位经验：提交到本仓库 `docs/knowledge/` 对应工位目录。
+- 脱敏案例：用 [案例提交 Issue 模板](https://github.com/GoldenTellus/goldentellus-home/issues/new?template=case-submission.md) 先提交素材，审核后写入 `docs/cases/`。
+- 讨论、活动或组队：到 `goldentellus-community`。
 
-提交前请先阅读[贡献指南](CONTRIBUTING.md)，再确认目标仓库的 README、模板和许可证要求。
+提交前请先阅读[贡献指南](CONTRIBUTING.md)。
