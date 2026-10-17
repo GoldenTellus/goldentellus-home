@@ -1,60 +1,91 @@
-# 🏠 GoldenTellus FDE Community
+# 🏠 GoldenTellus
 
-> 我们不培养六边形战士。
-> FDE 不是一个角色，是一条流水线。
-> 这个仓库是 GoldenTellus Organization 的总入口，也是知识库和案例库的所在地。
+> Production-ready AI capabilities, extracted from real enterprise deployments.
 
-在线站点：https://goldentellus.github.io/goldentellus-home/
+We deploy **SNAO** (multi-tenant agent platform) for enterprises, extract reusable capabilities, and open-source them for developers worldwide.
 
-## 🚦 有需求？从这里直达
+**Live site**: https://goldentellus.github.io/goldentellus-home/
 
-| 你现在要做什么 | 推荐路径 |
+---
+
+## 🎯 What We Do
+
+1. **Deploy SNAO** in enterprises — a platform that governs AI, precipitates knowledge from work, and manages capabilities
+2. **Extract patterns** — Tools, skills, knowledge packs, external roles that proved valuable in production
+3. **Desensitize & vet** — Remove enterprise-specific details, verify quality
+4. **Open source** — Package as universal formats (MCP, Claude Skill, OpenAPI, standalone)
+
+---
+
+## 🚀 Quick Links
+
+| Role | Start Here |
 |---|---|
-| 我是企业，想判断 AI 项目是否值得做 | 🏢 [企业入口](./docs/for-enterprise.md) → 📚 [案例库](./docs/cases/index.md) |
-| 我是新人，想知道从哪里学起 | 🌱 [新人入口](./docs/for-beginner.md) → 🧭 [流水线基础](./docs/knowledge/00-pipeline-fundamentals/index.md) |
-| 我想理解一个 AI 落地问题 | 📚 [案例库](./docs/cases/index.md) → 🧠 [知识库](./docs/knowledge/index.md) |
-| 我想深入某个工位 | 🔧 [FDE 入口](./docs/for-fde.md) → 🧠 [知识库](./docs/knowledge/index.md) |
-| 我想参与讨论、组队或活动 | 🤝 [goldentellus-community](https://github.com/GoldenTellus/goldentellus-community) |
-| 我想贡献文章或案例 | 🤝 [贡献指南](./docs/CONTRIBUTING.md) → 🗂️ [仓库与内容导航](./docs/navigation.md) |
+| **Developer** | [Capabilities catalog](https://github.com/GoldenTellus/goldentellus-capabilities) → [Quick start](./docs/for-developers.md) |
+| **Enterprise** | [What is SNAO?](./docs/snao-overview.md) → [Schedule demo](./docs/for-enterprise.md) |
+| **Contributor** | [Contributing guide](./docs/CONTRIBUTING.md) |
 
-## 🔁 一条完整的 FDE 路线
+---
 
-```text
-🧭 找到工位
-   ↓
-🧠 学习岗位方法
-   ↓
-📚 阅读脱敏案例，理解约束
-   ↓
-🧪 用最小 Demo 验证方案
-   ↓
-🤝 在社区讨论、协作和持续迭代
-```
-
-你可以从任何一站开始，再沿着上游补知识、沿着下游做验证。
-
-## 🗂️ 仓库结构
+## 📦 Repository Structure
 
 ```text
 docs/
-├── index.md            # 站点首页
-├── for-*.md            # 新人 / FDE / 企业入口
-├── navigation.md       # 仓库与内容导航
-├── knowledge/          # 知识库，按工位分目录（00-07、99）
-└── cases/              # 案例库，正文在 by-industry/<industry>/
+├── index.md            # Site homepage
+├── for-developers.md   # How to use capabilities
+├── for-enterprise.md   # SNAO deployment info
+├── capabilities.md     # Capabilities catalog page
+├── snao-overview.md    # Technical architecture summary
+└── CONTRIBUTING.md     # How to contribute
 ```
 
-本地预览：
+---
+
+## 🛠️ Local Development
 
 ```bash
+# Install dependencies
 pip install mkdocs-material
+
+# Serve locally
 mkdocs serve
+
+# Build (strict mode catches broken links)
+mkdocs build --strict
 ```
 
-推送到 `main` 后由 GitHub Actions 构建（`mkdocs build --strict`）并部署到 Pages。
+Push to `main` triggers GitHub Actions → deploys to Pages automatically.
 
-## 📌 使用原则
+---
 
-- 案例必须有来源、授权状态、脱敏说明，并区分事实、估算和推断。
-- Demo 不提交 API Key、客户原始数据、个人敏感信息或未经授权的第三方资产。
-- 知识与案例目前都在本仓库；内容积累到一定规模后再拆分为独立仓库。
+## 📊 Current Status
+
+- **Capabilities**: 0 public (first batch in progress)
+- **Deployments**: 0 production (platform in development)
+- **Contributors**: Open to the community
+
+This is a **greenfield project** — we're building in public. Watch this space.
+
+---
+
+## 🤝 Contributing
+
+All capability contributions go to **[goldentellus-capabilities](https://github.com/GoldenTellus/goldentellus-capabilities)**.
+
+For documentation improvements to this site, see [CONTRIBUTING.md](./docs/CONTRIBUTING.md).
+
+---
+
+## 📄 License
+
+This site: [MIT License](./LICENSE)
+
+Individual capabilities may have different licenses — check each capability's directory.
+
+---
+
+## 💬 Connect
+
+- **Issues**: [goldentellus-home/issues](https://github.com/GoldenTellus/goldentellus-home/issues)
+- **Discussions**: [goldentellus-home/discussions](https://github.com/GoldenTellus/goldentellus-home/discussions)
+- **Capabilities**: [goldentellus-capabilities](https://github.com/GoldenTellus/goldentellus-capabilities)

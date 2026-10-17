@@ -1,15 +1,67 @@
-# 贡献指南
+# Contributing to GoldenTellus
 
-提交前请说明仓库、流水线角色和行业；区分事实、估算、推断与观点；检查授权、脱敏、许可证和密钥；使用对应 Issue 模板并补齐关联案例或 Demo。
+Thank you for your interest in contributing! GoldenTellus is focused on **open-sourcing production-tested AI capabilities** extracted from real enterprise deployments.
 
-## 内容贡献
+## 🎯 What We Accept
 
-案例和文章应包含来源、适用边界、验证状态和许可证信息。涉及客户或第三方材料时，先确认授权再提交。
+### Capabilities (Primary)
+All capability contributions go to **[goldentellus-capabilities](https://github.com/GoldenTellus/goldentellus-capabilities)**.
 
-## 代码贡献
+See that repo's [CONTRIBUTING.md](https://github.com/GoldenTellus/goldentellus-capabilities.mdblob/main/CONTRIBUTING.md) for:
+- Quality standards (production-tested, universal format, self-contained)
+- Submission process (proposal → review → merge)
+- Maintenance expectations
 
-Demo 和工具应提供运行说明、配置示例、测试或可重复验证步骤。禁止提交真实密钥、客户原始数据和未授权资产。
+### Documentation (This Repo)
+Improvements to this site:
 
-## 讨论与审核
+- **Typo fixes**: Open a PR directly
+- **Content clarifications**: Open an issue first, discuss approach
+- **New sections**: Propose via issue, get alignment before writing
 
-优先使用 Issue、Pull Request 和 Organization Discussions 留下可追踪记录。维护者会根据类型、角色、行业、状态、难度和优先级标签进行整理。
+## 🚫 What We Don't Accept
+
+- **Experimental capabilities** (must be production-deployed)
+- **FDE training content** (we pivoted away from that direction)
+- **Case studies without authorization** (all must be desensitized + approved)
+
+## 📝 How to Contribute
+
+### For Capabilities
+Go to [goldentellus-capabilities](https://github.com/GoldenTellus/goldentellus-capabilities) and follow that repo's process.
+
+### For Documentation
+
+1. **Fork this repo**
+2. **Create a branch**: `git checkout -b docs/your-improvement`
+3. **Make changes**: Edit files in `docs/`
+4. **Test locally**: 
+   ```bash
+   pip install mkdocs-material
+   mkdocs serve
+   ```
+5. **Open PR**: Describe what you changed and why
+
+## ✅ Quality Standards
+
+- **Accurate**: All technical claims must be verifiable
+- **Clear**: Use plain language, define jargon
+- **Structured**: Headings, bullets, tables for scannability
+- **Linked**: Reference SNAO framework sections (e.g., "see §4.3")
+
+## 🤝 Code of Conduct
+
+- Be respectful and constructive
+- Focus on ideas, not people
+- Accept feedback gracefully
+- No spam, self-promotion, or off-topic discussions
+
+## 💬 Questions?
+
+- **General questions**: [Discussions](https://github.com/GoldenTellus/goldentellus-home/discussions)
+- **Bugs or issues**: [Issues](https://github.com/GoldenTellus/goldentellus-home/issues)
+- **Capability proposals**: [goldentellus-capabilities](https://github.com/GoldenTellus/goldentellus-capabilities)
+
+---
+
+**Thank you for helping us build a library of production-grade AI capabilities!**
