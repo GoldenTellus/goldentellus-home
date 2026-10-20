@@ -31,7 +31,7 @@
     <span class="entry-card__body">Tools, skills, knowledge packs, and external roles — battle-tested in production.</span>
     <span class="entry-card__link">See catalog →</span>
   </a>
-  <a class="entry-card" href="https://github.com/GoldenTellus/goldentellus-capabilities.mdblob/main/CONTRIBUTING.md">
+  <a class="entry-card" href="https://github.com/GoldenTellus/goldentellus-capabilities/blob/main/CONTRIBUTING.md">
     <span class="entry-card__icon">🤝</span>
     <span class="entry-card__title">Contribute</span>
     <span class="entry-card__body">Have a production-tested capability? Share it with the community.</span>
@@ -77,7 +77,7 @@ All capabilities are packaged in **universal formats** (MCP Server, Claude Skill
 - **Capability System**: Kind × Execution Class model with trust blocks and policy-based approval
 - **Company Brain**: Single Work Bot entry for all employees, answers by effective scope
 
-Learn more: [SNAO Overview](snao-overview.md)
+Learn more: [SNAO Overview](snao-overview.md) · [Interactive course](https://github.com/GoldenTellus/goldentellus-snao-school)
 
 ## 📊 Current Status
 

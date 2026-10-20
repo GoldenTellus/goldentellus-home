@@ -181,4 +181,5 @@ Continuous降级: Run eval suites per capability, downgrade to smaller models wh
 
 - **For Developers**: Browse [open-source capabilities](https://github.com/GoldenTellus/goldentellus-capabilities)
 - **For Enterprises**: [Schedule a demo](for-enterprise.md)
+- **Learn Interactively**: [SNAO Interactive Guide](https://github.com/GoldenTellus/goldentellus-snao-school) — a 12-lecture course you run in Claude Code
 - **Technical Deep Dive**: Read [SNAO_Framework_v1.0.md](https://github.com/GoldenTellus/goldentellus-home) (full spec)
